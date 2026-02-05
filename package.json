@@ -1,6 +1,6 @@
 {
   "name": "linear-agent-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A micro CLI for Linear.app specifically designed for AI agents",
   "type": "module",
   "bin": {
