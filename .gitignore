@@ -1,5 +1,7 @@
-*.md
-!README.md
+activity.md
+prd.md
+PROMPT.md
+review_iteration.md
 .env
 iterations/
 node_modules/
