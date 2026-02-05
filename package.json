@@ -1,0 +1,51 @@
+{
+  "name": "linear-agent-cli",
+  "version": "1.0.0",
+  "description": "A micro CLI for Linear.app specifically designed for AI agents",
+  "type": "module",
+  "bin": {
+    "linear": "dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "dev": "node --loader ts-node/esm src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run lint && npm run test && npm run build"
+  },
+  "keywords": [
+    "linear",
+    "cli",
+    "ai",
+    "agent",
+    "automation"
+  ],
+  "author": "Anatolii",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@linear/sdk": "^73.0.0",
+    "commander": "^14.0.3",
+    "conf": "^15.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.54.0",
+    "@typescript-eslint/parser": "^8.54.0",
+    "@vitest/coverage-v8": "^4.0.18",
+    "eslint": "^9.39.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
