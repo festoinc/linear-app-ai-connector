@@ -50,6 +50,10 @@ linear auth <YOUR_LINEAR_TOKEN>
 - `linear status list`
 - `linear status set <ID> "Done"`
 
+## Repository
+
+[https://github.com/festoinc/linear-app-ai-connector](https://github.com/festoinc/linear-app-ai-connector)
+
 ## Technical Stack
 - **Runtime**: Node.js
 - **Language**: TypeScript

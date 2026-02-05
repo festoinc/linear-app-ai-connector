@@ -1,6 +1,6 @@
 {
   "name": "linear-agent-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A micro CLI for Linear.app specifically designed for AI agents",
   "type": "module",
   "bin": {
@@ -30,6 +30,14 @@
   ],
   "author": "Anatolii",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/festoinc/linear-app-ai-connector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/festoinc/linear-app-ai-connector/issues"
+  },
+  "homepage": "https://github.com/festoinc/linear-app-ai-connector#readme",
   "engines": {
     "node": ">=18.0.0"
   },
