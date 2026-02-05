@@ -14,6 +14,8 @@ This tool provides a structured, text-based interface optimized for Large Langua
 
 ## Installation
 
+To install the CLI globally from the current directory:
+
 ```bash
 npm install -g linear-agent-cli
 ```
